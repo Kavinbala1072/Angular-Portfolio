@@ -60,7 +60,15 @@
     border-bottom: 1px solid #aaa;
     margin-bottom: 0.5em;
   }
-
+button
+  {
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: #fad818;
+    color: black;
+    border: 2px solid #fad818;
+  }
 @media (min-width: 1000px){
     .project
     {
