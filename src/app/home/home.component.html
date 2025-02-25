@@ -1,11 +1,11 @@
 <div id="AboutMe" class="AboutMe">
     <div class="AboutMe-left">
-      <img src="../Photo.jpg">
+      <img src="../profile.jpg">
     </div>
     <div class="AboutMe-Right">
       <h2>KAVINRAJ BALAMURUGAN</h2>
       <p>
-        <i class="fas fa-envelope"></i> &nbsp;kavinbala82gmail.com
+        <i class="fas fa-envelope"></i> {{ email }}
         <br>
         <i class="fas fa-mobile-alt"></i> &nbsp;&nbsp;9597720998
         <br>
@@ -25,9 +25,8 @@
         <a href="https://www.instagram.com/@kavin.1072"><i class="fa-brands fa-instagram"> </i></a>
         <a href="https://www.linkedin.com/in/kavin-raj-a50250227"><i class="fa-brands fa-linkedin"> </i></a>
         <p class="Download" style="text-align: Left;" > Here to download My Resume </p> 
-        <a href="KavinrajB.pdf" download="KavinrajB.pdf">
-        <button id="downloadButton" style="height: 30px; width: 150px;"> Download Resume 
-        </button>
-      </a>
+        <a>
+          <button id="downloadButton" style="height: 30px; width: 150px;" (click)="downloadFile()"> Download Resume </button>
+        </a>
     </div>
   </div>

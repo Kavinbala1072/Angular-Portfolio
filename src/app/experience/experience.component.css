@@ -1,15 +1,28 @@
 .Experience
 {
     width: 100%;
-    height: 1000px;
-    background-color:#000000;
-    color: white;
+    height: 79vh;
+    background-color:#ffffff;
+    color: #555;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 80px;
+    padding-bottom: 30px;
 }
+.header{
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+  }
 .Experience h3{
     text-align: center;
-    padding-top: 90px;
-    color: #fad818;
+    /* padding-top: 90px; */
+    color: #2772A0;
+}
+.Experience-left h4
+{
+    color: #2772A0;
 }
 .Experience img
 {
@@ -28,7 +41,7 @@
     .Experience
     {
         width: 100%;
-        height: 641px;
+        height: Auto;
     }
     .Experience-left
     {
@@ -40,16 +53,23 @@
     .Experience-left h4
     {
         padding-left: 50px;
-        color: #fad818;
+        color: #2772A0;
     }
     .Experience-left ul 
     {
         padding-left: 50px;
-        padding-top: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     .Experience-Right
     {
         width: 40%;
         float: right;
+    }
+    .Experience img
+    {
+        height: 400px;
+        width: 100%;
+        margin-top: 60px;
     }
 }

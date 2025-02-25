@@ -1,8 +1,9 @@
 .AboutMe
 {
     width: 100%;
-    height: 980px;
-    background-color:#000000;
+    height: 100vh;
+    background-color:#ffffff;
+    color: #555;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .AboutMe-left
@@ -16,12 +17,12 @@
 }
 .AboutMe-Right
 {
-    color: white;
+    color: #555;
 }
 .AboutMe-Right h2
 {
     text-align: center;
-    color: #fad818;
+    color: #2772A0;
 }
 .AboutMe-Right p
 {
@@ -43,39 +44,39 @@ button
 {
    margin-left: 100px;
    border-radius: 20px;
-   background-color: #fad818;
-   color: black;
-   border: 2px solid #fad818;
+   background-color: #2772A0;
+   color: white;
+   border: 2px solid #2772A0;
 }
 .fas {
-    color: #fad818;
+    color: #2772A0;
 }
 .fa-brands {
-    color: #fad818;
+    color: #2772A0;
 }
 
 @media (min-width: 1000px){
     .AboutMe
     {
         width: 100%;
-        height: 641px;
-        background-color:#000000;
+        height: 100vh;
+        background-color:#ffffff;
     }
     .AboutMe-left
     {
         float: left;
-        width: 40%;
+        width: 30%;
     }
     .AboutMe-left img
     {
-        height: 43%;
-        width: 45%; 
-        margin: 32% 0% 0% 25%;
+        height: 50vh;
+        width: 45vh; 
+        margin: 45% 0% 0% 10%;
     }
     .AboutMe-Right
     {
         float: Right;
-        width: 58%;
+        width: 68%;
         padding-top: 12%;
         margin-right: 20px;
     }
@@ -83,7 +84,7 @@ button
     {
         text-align: left;
         padding: 10px 20px 0px 20px;
-        color: #fad818;
+        color: #2772A0;
     }
     .AboutMe-Right p
     {
@@ -106,8 +107,8 @@ button
        margin-left: 40px;
        margin-top: 10px;
        border-radius: 20px;
-       background-color: #fad818;
-       color: black;
-       border: 2px solid #fad818;
+       background-color: #2772A0;
+       color: white;
+       border: 2px solid #2772A0;
     }
   }

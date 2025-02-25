@@ -1,25 +1,35 @@
 .Education
 {
     width: 100%;
-    height: 1050px;
-    background-color:#000000;
-    color: white;
+    height: 79vh;
+    background-color:#ffffff;
+    color: #555;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 80px;
+    padding-bottom: 30px;
 }
+.header{
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+  }
 .Education h3{
     text-align: center;
-    padding-top: 90px;
-    color: #fad818;
+    /* padding-top: 90px; */
+    color: #2772A0;
 }
 .Education img
 {
+    margin-top: 20px;
     height: 400px;
     width: 100%;
 }
 .Education-right h3,h4
 {
     text-align: center;
-    color: #fad818;
+    color: #2772A0;
 }
 .content
 {
@@ -29,21 +39,25 @@
     .Education
     {
         width: 100%;
-        height: 641px;
+        height: Auto;
     }
     .Education h3{
         text-align: center;
-        padding-top: 90px;
-        color: #fad818;
+        color: #2772A0;
     }
-    .Education-right
-    {
+    .Education-Right {
         width: 60%;
-        float: right;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 65vh; /* Ensures full screen height */
+        flex-direction: column; /* Ensures content is aligned vertically */
     }
+    
     .Education-left
     {
-        width: 40%;
+        width: 35%;
         float: left;
     }
     .Education-left img
@@ -51,11 +65,14 @@
         width: 90%;
         top: 50px;
         left: 20px;
+        height: 400px;
+        width: 100%;
+        margin-top: 60px;
     }
     .Education-Right h3{
         text-align: center;
         padding-top: 60px;
-        color: #fad818;
+        color: #2772A0;
     }
     .content
     {
