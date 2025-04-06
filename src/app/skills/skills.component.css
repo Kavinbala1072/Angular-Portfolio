@@ -51,7 +51,9 @@ strong
   overflow-x: auto; /* Enables horizontal scrolling */
   white-space: nowrap; /* Prevents wrapping of items */
 }
-  
+  .fa-html5{
+margin-left: 25vh;
+}
   .container {
     text-align: center;
     width: 80px;
@@ -321,4 +323,7 @@ strong
 		width: 70px;
 		padding: 10px;
 	}
+.fa-html5{
+margin-left: 1vh;
+}
 }
